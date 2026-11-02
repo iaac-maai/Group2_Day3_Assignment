@@ -218,3 +218,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+#virtual environments
+.vent/
+venv/
+
+#Jupyter
+.ipynb_checkpoints
+
+# data: downloaded by the notebook, not committed
+data/*
+!data/.gitkeep
+
+# trained model: published on Hugging Face, not on GitHub
+models/*.joblib
+dataset/*.csv
+test_download/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# secrets
+.env
+kaggle.json
